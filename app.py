@@ -32,14 +32,5 @@ def inject_user():  # 函数名可以随意修改
 def index():
     return render_template('index.html')
 
-import os
-
-from dotenv import load_dotenv
-
-dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
-if os.path.exists(dotenv_path):
-    load_dotenv(dotenv_path)
-
-from watchlist import app
 
 
