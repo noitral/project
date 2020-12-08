@@ -1,0 +1,185 @@
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>Pluto invest</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/fancySelect.css') }}" type="text/css"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/uniform.css') }}" type="text/css"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/all.css') }}" type="text/css"/>
+	<link media="screen" rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/screen.css') }} " />
+</head>
+<body>
+	<div id="wrapper">
+		<div class="wrapper-holder">
+			<header id="header">
+				<span class="logo"><a href="{{ url_for('index') }}">Elegantic</a></span>
+				<ul class="tools-nav tools-nav-mobile">
+					<li class="login"><a href="#">Login</a> / <a href="#">register</a></li>
+				</ul>
+				<div class="bar-holder">
+				<a class="menu_trigger" href="#">menu</a>
+					<nav id="nav">
+						<ul>
+							<li><a href="#">Stocks</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="#">Comments</a></li>
+						</ul>
+					</nav>
+					<ul class="tools-nav">
+						<li class="login">Login</a> / register</a></li>
+					</ul>
+				</div>
+			</header>
+			<section class="promo">
+				<ul class="slider">
+					<li style="background: url(static/images/slide-01.jpg) no-repeat 50% 50%;">
+						<div class="slide-holder">
+							<div class="slide-info">
+								<h1>Change in the main index and interconnection!</h1>
+								<p>On November 27, the Shanghai Stock Exchange and the China Securities Index company announced the adjustment of main index components such as Shanghai and Shenzhen 300, Shanghai Stock Exchange 50, China Stock Exchange 500, Shanghai Stock Exchange 180, Shanghai Stock Exchange 380, etc., which took effect on December 14.</p>
+								<a class="btn white big" href="#">See the collection</a>
+							</div>
+						</div>
+					</li>
+					<li style="background: url(static/images/slide-02.jpg) no-repeat 50% 50%;">
+						<div class="slide-holder">
+							<div class="slide-info">
+								<h1>Expansion of Shanghai Shenzhen Hong Kong link and its influence</h1>
+								<p>In order to further improve the interconnection mechanism, the Shanghai Shenzhen Hong Kong Stock Exchange reached a consensus on expanding the standard of Shanghai Shenzhen Hong Kong link on November 27, 2020, which further deepened the interconnection and mutual financing of the two markets.</p>
+								<a class="btn white big" href="#">See the collection</a>
+							</div>
+						</div>
+					</li>
+					<li style="background: url(static/images/slide-03.jpg) no-repeat 50% 50%;">
+						<div class="slide-holder">
+							<div class="slide-info">
+								<h1>2021, the great change of American consumption</h1>
+								<p>This year, the monetary and fiscal easing in Europe and the United States is unprecedented. What are the macro consequences next year?</p>
+								<a class="btn white big" href="#">See the collection</a>
+							</div>
+						</div>
+					</li>
+					<li style="background: url(static/images/slide-04.jpg) no-repeat 50% 50%;">
+						<div class="slide-holder">
+							<div class="slide-info">
+								<h1>When will the economy get back on track ?</h1>
+								<p>FDA may approve the emergency application of Pfizer and Moderna vaccine in mid and late December 2020, and the global vaccination will officially begin.</p>
+								<a class="btn white big" href="#">See the collection</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</section>
+			<section id="main">
+				<div class="boxes">
+					<div class="box">
+						<a href="#">
+							<span class="bg"></span>
+							<img src="{{ url_for('static', filename='images/img-01.jpg') }}" alt="" />
+							<div class="box-info">
+								<div class="box-info-holder">
+									<span class="title"><span>New stuff</span></span>
+									<h2>Suits for gentlemen</h2>
+									<span class="btn white normal">More new suits</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="box">
+						<a href="#">
+							<span class="bg"></span>
+							<img src="{{ url_for('static', filename='images/img-02.jpg') }}" alt="" />
+							<div class="box-info">
+								<div class="box-info-holder">
+									<span class="title"><span>Sale</span></span>
+									<h2>all Jackets 50% off</h2>
+									<span class="btn white normal">See products</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="box">
+						<a href="#">
+							<span class="bg"></span>
+							<img src="{{ url_for('static', filename='images/img-03.jpg') }}" alt="" />
+							<div class="box-info">
+								<div class="box-info-holder">
+									<span class="title"><span>Hot</span></span>
+									<h2>Offer for real men</h2>
+									<span class="btn white normal">Be a real men</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="block-advice">
+					<div class="advice-holder">
+						<h2>Newsletter</h2>
+						<p>Join to receive promotions and other good news.</p>
+					</div>
+					<form action="#" class="form-newsletter">
+						<fieldset>
+							<input type="text" placeholder="Your email..." />
+							<input class="btn black normal" type="submit" value="Subscribe" />
+						</fieldset>
+					</form>
+				</div>
+			</section>
+		</div>
+		<footer id="footer">
+			<div class="footer-holder">
+				<div class="footer-frame">
+					<div class="footer-content">
+						<div class="col-holder">
+							<div class="col">
+								<div class="heading">
+									<h3>About us</h3>
+								</div>
+								<p>Vero eos et accusamus et iusto dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti</p>
+								<p>Quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
+							</div>
+							<div class="col">
+								<div class="heading">
+									<h3>Contact</h3>
+								</div>
+								<address>
+									<p><strong>Elegantic Inc.</strong></p>
+									<p>1041 Madison Ave,</p>
+									<p>New York</p>
+								</address>
+								<address>
+									<p>(45) 523 565 242</p>
+									<p><a href="mailto:office@elegantic.com">office@elegantic.com</a></p>
+								</address>
+							</div>
+							<div class="col col-contact">
+								<div class="heading">
+									<h3>Follow us</h3>
+								</div>
+								<ul class="social">
+									<li class="facebook"><a href="#">Facebook</a></li>
+									<li class="google"><a href="#">Google+</a></li>
+									<li class="twitter"><a href="#">Twitter</a></li>
+									<li class="pinterest"><a href="#">Pinterest</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer-bottom">
+						<div class="holder">
+							<p>Copyright 2020 Pluto. All rights reserved.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>	
+	</div>
+	
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.bxslider.min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.placeholder.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.uniform.min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/fancySelect.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
